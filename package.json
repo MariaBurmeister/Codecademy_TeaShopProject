@@ -1,0 +1,30 @@
+{
+  "name": "codecademy_teashopproject",
+  "version": "1.0.0",
+  "description": "Exercicio",
+  "main": "index.html",
+  "scripts": {
+    "rodar": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaBurmeister/Codecademy_TeaShopProject.git"
+  },
+  "keywords": [
+    "website",
+    "tea"
+  ],
+  "author": "Maria Gabriela N. Burmeister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaBurmeister/Codecademy_TeaShopProject/issues"
+  },
+  "homepage": "https://github.com/MariaBurmeister/Codecademy_TeaShopProject#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}
