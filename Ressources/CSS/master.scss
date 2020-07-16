@@ -1,0 +1,92 @@
+html {
+  font-size: 100%;
+}
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.nav {
+height: 69px;
+background-color: black;
+border-bottom: 1px solid seashell;
+position: fixed;
+width: 100%;
+z-index: 10;
+
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  width: auto;
+
+}
+
+.nav.container li {
+  display: inline-block;
+  margin-right: 1.1rem;
+
+}
+
+.nav-button {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.banner {
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: auto;
+  margin: 0 30px 30px;
+  background-image: url("../Images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  display: inline-flex;
+  background-color: black;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.mission h2, h4 {
+  flex-basis: 1200px;
+  margin: .5rem;
+}
+
+.featured {
+  position: relative;
+  top: 59px;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.featured h2, h4 {
+  flex-basis: 1000px;
+}
