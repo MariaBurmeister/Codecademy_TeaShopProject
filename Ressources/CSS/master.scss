@@ -1,0 +1,163 @@
+html {
+  font-size: 100%;
+}
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+
+  padding: 0;
+  margin: 0;
+}
+
+h2, h4 {
+  margin: .5rem
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.nav {
+height: 69px;
+background-color: black;
+border-bottom: 1px solid seashell;
+position: fixed;
+width: 100%;
+z-index: 10;
+
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  width: auto;
+
+}
+
+.nav.container li {
+  display: inline-block;
+  margin-right: 1.1rem;
+
+}
+
+.nav-button {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.banner {
+  position: relative;
+  top: 69px;
+  height: 700px;
+  width: auto;
+  margin: 0 30px 30px;
+  background-image: url("../Images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  display: inline-flex;
+  background-color: black;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.mission h2, .mission h4 {
+  flex-basis: 1200px;
+}
+
+.featured {
+  position: relative;
+  top: 59px;
+  margin: 50px auto;
+  max-width: 1000px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.gallery {
+  flex-basis: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured h2,
+.featured h4 {
+  flex-basis: 100%;
+}
+
+.stepping {
+  margin: 15px 10px 0;
+}
+
+.stepping img {
+  max-width:300px;
+}
+
+.locations {
+  position: relative;
+  top: 59px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/Ressources/Images/img-locations-background.jpg");
+  min-height: 500px;
+  width: auto;
+  margin: 0 40px;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.locations h2 {
+  flex-basis: 100%;
+  margin-bottom: 15px;
+}
+
+.address{
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.address address {
+  font-style: normal;
+  background-color: black;
+  flex-basis: 300px;
+  margin: 0 20px;
+}
+
+.address p {
+  line-height: 3rem;
+}
+
+.contact-info {
+  position: relative;
+  top: 59px;
+}
+
+.foot {
+  position: relative;
+  top: 59px;
+  justify-content: flex-start;
+}
+
+.foot h5 {
+  padding-left: 20px;
+}
